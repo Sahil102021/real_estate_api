@@ -13,7 +13,7 @@ var bannerRouter = require("./routes/banner");
 
 
 const mongoose = require("mongoose");
-let MONGODB_CONECT_URL = "mongodb://127.0.0.1:27017/real_estate";
+let MONGODB_CONECT_URL = "mongodb+srv://sahilramani2021:sahil@cluster0.8suvr.mongodb.net/real_estate";
 
 mongoose
   .connect(
