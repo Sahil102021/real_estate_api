@@ -13,7 +13,7 @@ const BannerSchema = new Schema({
         required: true,
 
     },
-    direction: {
+    description: {
         type: String,
         trim: true,
         required: true,
